@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Goodbyt from ${COURSE}"
-      - run: echo "${ { secrets.MY_SECRET } }"
+      - run: echo "${{secrets.MY_SECRET}}"
